@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: "Alegreya Sans", sans-serif;
+    height: 2000px;
+}
+span
+,a{
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+
+.header{
+    background-image: url(./images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+ 
+}
+
+.header .container{
+   text-align: center;
+   margin-top: 20vh;
+   padding: 20px;
+   
+
+}
+.header .container p{
+    margin-top: 0px;
+    font-size: 27px;
+}
+.header .container h1{
+    font-size: 60px;
+}
+
+.header .overlay{
+
+height: 100%;
+background-color: rgb(0, 0, 0,0.2);
+}
+.header .nav{
+    text-align: center;
+
+}
+
+.header .nav .img{
+ 
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 40%;
+}
+
+.header .nav .img img{
+
+    height: 50px;
+}
+
+.header .nav .link{
+ 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .nav .link li{
+ 
+    display: inline-block;
+    margin: 0px 15px;
+    color: white;
+    font-size: 17px;
+    
+   cursor: pointer;
+}
+
+.header .container button{
+
+    padding:20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin: 5px;
+}
+ .header .container .btn1{
+    background-color:#8E7754 ;
+}
+.header .container .btn2{
+
+    background-color: transparent;
+    border-color: white;
+}
+/*/////////////////////////////////////////////////////////////
+/* section 2*/
+.section2{
+    margin-top: 10vh;
+    text-align: center;
+    width: 100%;
+   
+
+}
+.section2 .img {
+    display: inline-block;
+    vertical-align: middle;
+    width:40%;
+    margin-right: 5%;
+}
+.section2 .img img{
+
+    width:100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.section2 .content{
+    display: inline-block;
+    vertical-align: middle;
+    width:40%;
+    text-align: left;
+}
+
+
+.section2 .content ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.section2 .content ul li img {
+    vertical-align: middle; /* Align icons with text */
+    margin-right: 10px; /* Add space between icon and text */
+    width:45px;
+    border: 1px hsl(0, 5%, 81%) solid;
+    border-radius: 100%;
+    
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+/*section3*/
+
+.section3{
+    margin-top: 10vh;
+    text-align: center;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding:50px;
+   
+
+}
+.section3 .img {
+    display: inline-block;
+    vertical-align: middle;
+    width:40%;
+    margin-left: 5%;
+}
+.section3 .img img{
+
+    width:100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.section3 .content{
+    display: inline-block;
+    vertical-align: middle;
+    width:40%;
+    text-align: left;
+}
+.section3 .content h2{
+
+    font-size: 30px;
+}
+
+.section3 .content p{
+
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////*/
+/*section4*/
+.section4 {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.all-cards {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.card {
+    width: 30%;
+    margin: 1.66%; 
+    padding: 5px;
+    float: left;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3, .card p {
+    padding: 10px;
+    margin: 0;
+}
+
+.clear-flex {
+    clear: both;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+.section5 {
+    margin-top: 20vh;
+    text-align: center;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 50px;
+    height:35%;
+}
+
+.section5 .img {
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 5%;
+  
+}
+
+.section5 .content {
+    float: left;
+    width: 40%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.section5 .content ul li {
+    margin-bottom: 10px; 
+}
+
+.section5 .content ul li img {
+    vertical-align: middle;
+    margin-right: 10px; 
+    width: 45px;
+    background-color: #8E7754;
+    border-radius: 100%;
+ 
+}
+
+
+.section5::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.section5 .content p{
+
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*///////////////////////////////////////////////////////////////////*/
+.section6 {
+    background-color: #403D38;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.section6 .container {
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden;
+    position: relative; /* Clear floats */
+}
+
+.section6 .container .list {
+    float: left;
+    width: 22%; /* Adjust the width to fit all lists side by side */
+    margin-left: 2%; /* Adjust margins for spacing */
+    text-align: left;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+
+.section6 .list h2
+ {
+    color: #ffffff;
+    font-size: 18px;
+}
+.section6 .list p,
+.section6 .list ul
+{
+    color:#969696;
+    line-height: 30px;
+}
+
+.section6 .list ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.section6 .list ul li:before {
+    content: ">"; /* Custom bullet */
+    margin-right: 5px;
+}
+
+.section6 .container ul li img {
+   width:35px;
+    vertical-align: middle; /* Align images with text */
+    margin-right: 10px; 
+    float: left;
+    margin-top: 0;
+
+ 
+}
+.section6 .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section6 .container {
+    text-align: center; /* Center the container */
+}
+
+.section6 hr{
+  
+    border: 0; 
+    height: 1px;
+    background: #969696; 
+    margin: 10px 0; 
+}
+/*////////////////////////////////////////////////////*/
+
+.footer {
+    background-color: #353330; /* Background color for the footer */
+    padding: 20px 0; /* Padding for top and bottom */
+    width: 100%; /* Full width */
+    height: 50vh; /* Set height */
+    position: relative; /* Position relative for clear fix */
+}
+
+.footer .container {
+
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center text inside the container */
+    margin-top: 10vh;
+}
+
+.footer .img {
+    margin: 0 auto; /* Center the img block */
+    float: none; /* Remove floating */
+}
+
+.footer .img img {
+    width: 30%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer p {
+    color: #969696; /* Text color */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.footer ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 20px 0 0 0; /* Add spacing from the paragraph */
+    overflow: hidden; /* Clear floats */
+    width: 100%; /* Full width for centering list items */
+    text-align: center; /* Center the content */
+}
+
+.footer ul li {
+    float: none; /* No float to center horizontally */
+    display: inline-block; /* Align list items horizontally */
+    margin: 0 10px; /* Add spacing between list items */
+}
+
+/* Clear float for ul */
+.footer ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer ul li img {
+    max-width: 50px; /* Adjust the size of social media icons */
+    height: auto; /* Maintain aspect ratio */
+    background-color: #484540;
+    border-radius: 50%;
+}
